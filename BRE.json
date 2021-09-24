@@ -1,0 +1,14 @@
+{
+    "InvoiceRule":[
+       {
+            "fact" : "shipped_qty", 
+            "operator" :"less",
+            "value":"order_qty"
+       },
+       {
+            "fact" : "unit_price", 
+            "operator" :"less",
+            "value":"order_price"
+         }
+    ]
+ }  
